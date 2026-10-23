@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.cache/
+.tools/
+*.blend1
+*.local
+*.log
+.agents/
+.codex/
+.aws/
+.env
+.env.*
+!.env.example
+*.blend[0-9]
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Local authoring setup and intermediate previews are not deployment inputs.
+tools/blender/*
+!tools/blender/prepare_web_model.py
+!tools/blender/verify_stm32_glb.py
+models/**/preview_*.png
+models/**/qa-summary.json
+models/**/export-validation.json

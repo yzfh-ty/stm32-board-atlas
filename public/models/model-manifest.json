@@ -1,0 +1,163 @@
+{
+  "components": 31,
+  "meshes": 76,
+  "triangles": 71860,
+  "bytes": 3851920,
+  "parts": [
+    {
+      "id": "boot0",
+      "meshes": 3,
+      "triangles": 868
+    },
+    {
+      "id": "boot1",
+      "meshes": 3,
+      "triangles": 868
+    },
+    {
+      "id": "c1",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "c10",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "c2",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "c3",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "c4",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "c5",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "c6",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "c7",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "c8",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "c9",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "crystal-hse",
+      "meshes": 3,
+      "triangles": 744
+    },
+    {
+      "id": "crystal-lse",
+      "meshes": 2,
+      "triangles": 216
+    },
+    {
+      "id": "header-bottom",
+      "meshes": 2,
+      "triangles": 4320
+    },
+    {
+      "id": "header-top",
+      "meshes": 2,
+      "triangles": 4320
+    },
+    {
+      "id": "led-power",
+      "meshes": 3,
+      "triangles": 432
+    },
+    {
+      "id": "led-user",
+      "meshes": 3,
+      "triangles": 432
+    },
+    {
+      "id": "mcu",
+      "meshes": 3,
+      "triangles": 3756
+    },
+    {
+      "id": "pcb",
+      "meshes": 6,
+      "triangles": 46008
+    },
+    {
+      "id": "r1",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "r2",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "r3",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "r4",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "r5",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "r6",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "r7",
+      "meshes": 2,
+      "triangles": 324
+    },
+    {
+      "id": "regulator",
+      "meshes": 3,
+      "triangles": 924
+    },
+    {
+      "id": "reset",
+      "meshes": 3,
+      "triangles": 948
+    },
+    {
+      "id": "swd",
+      "meshes": 2,
+      "triangles": 764
+    },
+    {
+      "id": "usb",
+      "meshes": 4,
+      "triangles": 1752
+    }
+  ]
+}

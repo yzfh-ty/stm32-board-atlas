@@ -1,0 +1,39 @@
+:root {
+  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: #253129;
+  background: #f3f4f0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { width: min(1200px, calc(100% - 64px)); margin: 48px auto 24px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.16em; color: #5a685e; }
+h1 { font-size: clamp(28px, 4vw, 38px); font-weight: 600; letter-spacing: -0.04em; margin: 10px 0; }
+.intro, .hint, .note { color: #5a685e; font-size: 15px; line-height: 1.7; }
+.intro { margin: 0; }
+.tag { border: 1px solid #cbd2c7; padding: 7px 14px; border-radius: 24px; font-size: 13px; white-space: nowrap; }
+.viewport { position: relative; height: min(62vh, 600px); min-height: 320px; overflow: hidden; border: 1px solid #d4dacf; border-radius: 12px; background: #e9ece5; }
+.scene-label { position: absolute; left: 22px; top: 20px; font-size: 13px; color: #4f6153; pointer-events: none; }
+.fallback { padding: 40px; line-height: 1.8; }
+footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 20px; }
+.actions { display: flex; gap: 10px; }
+button { border: 1px solid #263d2e; border-radius: 6px; padding: 11px 20px; min-height: 44px; background: #263d2e; color: white; font: inherit; font-size: 14px; cursor: pointer; touch-action: manipulation; }
+button:hover { background: #3a5543; }
+button:active { transform: translateY(1px); }
+button:focus-visible { outline: 3px solid #437bbc; outline-offset: 3px; }
+button.secondary { background: transparent; color: #263d2e; border-color: #b2bead; }
+button.secondary:hover { background: #e3e8de; }
+.note { font-size: 13px; margin-top: 10px; }
+@media (max-width: 640px) {
+  main { width: calc(100% - 32px); margin-top: 24px; }
+  header { gap: 12px; }
+  .tag { padding: 6px 10px; }
+  .intro { font-size: 14px; }
+  .viewport { height: 52vh; min-height: 300px; }
+  footer { flex-direction: column; align-items: stretch; gap: 8px; }
+  .hint { font-size: 14px; margin: 0 0 6px; }
+  .actions button { flex: 1; }
+}
